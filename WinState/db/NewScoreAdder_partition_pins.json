@@ -1,0 +1,213 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Newpscore[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Newpscore[16]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[8]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[9]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[10]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[11]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[12]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[13]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[14]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[15]",
+					"strict" : false
+				},
+				{
+					"name" : "OGpscore[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SPUNscore[16]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

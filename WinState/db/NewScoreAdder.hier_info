@@ -1,0 +1,292 @@
+|NewScoreAdder
+OGpscore[0] => OGpscore[0].IN1
+OGpscore[1] => OGpscore[1].IN1
+OGpscore[2] => OGpscore[2].IN1
+OGpscore[3] => OGpscore[3].IN1
+OGpscore[4] => OGpscore[4].IN1
+OGpscore[5] => OGpscore[5].IN1
+OGpscore[6] => OGpscore[6].IN1
+OGpscore[7] => OGpscore[7].IN1
+OGpscore[8] => OGpscore[8].IN1
+OGpscore[9] => OGpscore[9].IN1
+OGpscore[10] => OGpscore[10].IN1
+OGpscore[11] => OGpscore[11].IN1
+OGpscore[12] => OGpscore[12].IN1
+OGpscore[13] => OGpscore[13].IN1
+OGpscore[14] => OGpscore[14].IN1
+OGpscore[15] => OGpscore[15].IN1
+OGpscore[16] => OGpscore[16].IN1
+SPUNscore[0] => SPUNscore[0].IN1
+SPUNscore[1] => SPUNscore[1].IN1
+SPUNscore[2] => SPUNscore[2].IN1
+SPUNscore[3] => SPUNscore[3].IN1
+SPUNscore[4] => SPUNscore[4].IN1
+SPUNscore[5] => SPUNscore[5].IN1
+SPUNscore[6] => SPUNscore[6].IN1
+SPUNscore[7] => SPUNscore[7].IN1
+SPUNscore[8] => SPUNscore[8].IN1
+SPUNscore[9] => SPUNscore[9].IN1
+SPUNscore[10] => SPUNscore[10].IN1
+SPUNscore[11] => SPUNscore[11].IN1
+SPUNscore[12] => SPUNscore[12].IN1
+SPUNscore[13] => SPUNscore[13].IN1
+SPUNscore[14] => SPUNscore[14].IN1
+SPUNscore[15] => SPUNscore[15].IN1
+SPUNscore[16] => SPUNscore[16].IN1
+Newpscore[0] <= onebitADDER:U0.port3
+Newpscore[1] <= onebitADDER:U1.port3
+Newpscore[2] <= onebitADDER:U2.port3
+Newpscore[3] <= onebitADDER:U3.port3
+Newpscore[4] <= onebitADDER:U4.port3
+Newpscore[5] <= onebitADDER:U5.port3
+Newpscore[6] <= onebitADDER:U6.port3
+Newpscore[7] <= onebitADDER:U7.port3
+Newpscore[8] <= onebitADDER:U8.port3
+Newpscore[9] <= onebitADDER:U9.port3
+Newpscore[10] <= onebitADDER:U10.port3
+Newpscore[11] <= onebitADDER:U11.port3
+Newpscore[12] <= onebitADDER:U12.port3
+Newpscore[13] <= onebitADDER:U13.port3
+Newpscore[14] <= onebitADDER:U14.port3
+Newpscore[15] <= onebitADDER:U15.port3
+Newpscore[16] <= onebitADDER:U16.port3
+
+
+|NewScoreAdder|onebitADDER:U0
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U1
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U2
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U3
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U4
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U5
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U6
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U7
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U8
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U9
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U10
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U11
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U12
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U13
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U14
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U15
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|NewScoreAdder|onebitADDER:U16
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+

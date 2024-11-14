@@ -1,0 +1,56 @@
+module newscoreADDER(OGpscore, SPUNscore, Newpscore);
+// 17 bit adder
+
+ input [16:0] OGpscore, SPUNscore;
+ output [16:0] Newscore;
+ 
+ wire carrIN1;
+ wire carrOUT1,carrOUT0,carrOUT1,carrOUT2, carrOUT3,carrOUT4,c arrOUT5, carrOUT6, carrOUT7, carrOUT8, carrOUT9 , carrOUT10, carrOUT11, carrOUT12, carrOUT13, carrOUT14, carrOUT15, carrOUT16;
+ 
+onebitADDER U0 (OGpscore[0],SPUNscore[0], carrIN1, sum[0], carrOUT1);
+
+onebitADDER U1 (OGpscore[1],SPUNscore[1], carrOUT1, sum[1],  carrOUT2);
+
+onebitADDER U2 (OGpscore[2],SPUNscore[2], carrOUT2, sum[2], carrOUT3);
+
+onebitADDER U3 (OGpscore[3],SPUNscore[3], carrOUT3, sum[3], carrOUT4);
+
+onebitADDER U4 (OGpscore[4],SPUNscore[4], carrOUT4, sum[4], carrOUT5);
+
+onebitADDER U5 (OGpscore[5],SPUNscore[5], carrOUT5, sum[5], carrOUT6);
+
+onebitADDER U6 (OGpscore[6],SPUNscore[6], carrOUT6, sum[6], carrOUT7);
+
+onebitADDER U7 (OGpscore[7],SPUNscore[7], carrOUT7, sum[7], carrOUT8);
+
+onebitADDER U8 (OGpscore[8],SPUNscore[8], carrOUT8, sum[8], carrOUT9);
+
+onebitADDER U9 (OGpscore[9],SPUNscore[9], carrOUT9, sum[9], carrOUT10);
+
+onebitADDER U10 (OGpscore[10],SPUNscore[10], carrOUT10, sum[10], carrOUT11);
+
+onebitADDER U11 (OGpscore[11],SPUNscore[11], carrOUT11, sum[11], carrOUT12);
+
+onebitADDER U12 (OGpscore[12],SPUNscore[12], carrOUT12, sum[12], carrOUT13);
+
+onebitADDER U13 (OGpscore[13],SPUNscore[13], carrOUT13, sum[13], carrOUT14);
+
+onebitADDER U14 (OGpscore[14],SPUNscore[14], carrOUT14, sum[14], carrOUT15);
+
+onebitADDER U15 (OGpscore[15],SPUNscore[15], carrOUT15, sum[15], carrOUT16);
+
+onebitADDER U16 (OGpscore[16],SPUNscore[16], carrOUT16, sum[16], carrOUT17);
+
+assign newScore = sum;
+
+endmodule 
+
+onebitADDER(og, spun, carryin, sum, new, carryout);
+
+	input og, spun, carryin, sum;
+	output carryout, new;
+	
+	assign carrout = (x & y) | (x & carryin) | (y & carryin);
+	assign sum = x ^ y ^ carryin;
+	
+endmodule
