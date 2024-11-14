@@ -1,0 +1,750 @@
+|playerCOIN
+maxbetselectorBUTTON => maxbetselectorBUTTON.IN1
+ogScore[0] => ogScore[0].IN1
+ogScore[1] => ogScore[1].IN1
+ogScore[2] => ogScore[2].IN1
+ogScore[3] => ogScore[3].IN1
+ogScore[4] => ogScore[4].IN1
+ogScore[5] => ogScore[5].IN1
+ogScore[6] => ogScore[6].IN1
+ogScore[7] => ogScore[7].IN1
+ogScore[8] => ogScore[8].IN1
+ogScore[9] => ogScore[9].IN1
+ogScore[10] => ogScore[10].IN1
+ogScore[11] => ogScore[11].IN1
+ogScore[12] => ogScore[12].IN1
+ogScore[13] => ogScore[13].IN1
+ogScore[14] => ogScore[14].IN1
+ogScore[15] => ogScore[15].IN1
+ogScore[16] => ogScore[16].IN1
+newScore[0] <= twotooneMUX:U1.port2
+newScore[1] <= twotooneMUX:U1.port2
+newScore[2] <= twotooneMUX:U1.port2
+newScore[3] <= twotooneMUX:U1.port2
+newScore[4] <= twotooneMUX:U1.port2
+newScore[5] <= twotooneMUX:U1.port2
+newScore[6] <= twotooneMUX:U1.port2
+newScore[7] <= twotooneMUX:U1.port2
+newScore[8] <= twotooneMUX:U1.port2
+newScore[9] <= twotooneMUX:U1.port2
+newScore[10] <= twotooneMUX:U1.port2
+newScore[11] <= twotooneMUX:U1.port2
+newScore[12] <= twotooneMUX:U1.port2
+newScore[13] <= twotooneMUX:U1.port2
+newScore[14] <= twotooneMUX:U1.port2
+newScore[15] <= twotooneMUX:U1.port2
+newScore[16] <= twotooneMUX:U1.port2
+
+
+|playerCOIN|twotooneMUX:U1
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+Button => outputscore.OUTPUTSELECT
+inputscore[0] => inputscore[0].IN2
+inputscore[1] => inputscore[1].IN2
+inputscore[2] => inputscore[2].IN2
+inputscore[3] => inputscore[3].IN2
+inputscore[4] => inputscore[4].IN2
+inputscore[5] => inputscore[5].IN2
+inputscore[6] => inputscore[6].IN2
+inputscore[7] => inputscore[7].IN2
+inputscore[8] => inputscore[8].IN2
+inputscore[9] => inputscore[9].IN2
+inputscore[10] => inputscore[10].IN2
+inputscore[11] => inputscore[11].IN2
+inputscore[12] => inputscore[12].IN2
+inputscore[13] => inputscore[13].IN2
+inputscore[14] => inputscore[14].IN2
+inputscore[15] => inputscore[15].IN2
+inputscore[16] => inputscore[16].IN2
+outputscore[0] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[1] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[2] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[3] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[4] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[5] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[6] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[7] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[8] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[9] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[10] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[11] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[12] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[13] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[14] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[15] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+outputscore[16] <= outputscore.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1
+is[0] => is[0].IN1
+is[1] => is[1].IN1
+is[2] => is[2].IN1
+is[3] => is[3].IN1
+is[4] => is[4].IN1
+is[5] => is[5].IN1
+is[6] => is[6].IN1
+is[7] => is[7].IN1
+is[8] => is[8].IN1
+is[9] => is[9].IN1
+is[10] => is[10].IN1
+is[11] => is[11].IN1
+is[12] => is[12].IN1
+is[13] => is[13].IN1
+is[14] => is[14].IN1
+is[15] => is[15].IN1
+is[16] => is[16].IN1
+outS[0] <= seventeenbitadder:U_add.port2
+outS[1] <= seventeenbitadder:U_add.port2
+outS[2] <= seventeenbitadder:U_add.port2
+outS[3] <= seventeenbitadder:U_add.port2
+outS[4] <= seventeenbitadder:U_add.port2
+outS[5] <= seventeenbitadder:U_add.port2
+outS[6] <= seventeenbitadder:U_add.port2
+outS[7] <= seventeenbitadder:U_add.port2
+outS[8] <= seventeenbitadder:U_add.port2
+outS[9] <= seventeenbitadder:U_add.port2
+outS[10] <= seventeenbitadder:U_add.port2
+outS[11] <= seventeenbitadder:U_add.port2
+outS[12] <= seventeenbitadder:U_add.port2
+outS[13] <= seventeenbitadder:U_add.port2
+outS[14] <= seventeenbitadder:U_add.port2
+outS[15] <= seventeenbitadder:U_add.port2
+outS[16] <= seventeenbitadder:U_add.port2
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add
+TwosComplement[0] => TwosComplement[0].IN1
+TwosComplement[1] => TwosComplement[1].IN1
+TwosComplement[2] => TwosComplement[2].IN1
+TwosComplement[3] => TwosComplement[3].IN1
+TwosComplement[4] => TwosComplement[4].IN1
+TwosComplement[5] => TwosComplement[5].IN1
+TwosComplement[6] => TwosComplement[6].IN1
+TwosComplement[7] => TwosComplement[7].IN1
+TwosComplement[8] => TwosComplement[8].IN1
+TwosComplement[9] => TwosComplement[9].IN1
+TwosComplement[10] => TwosComplement[10].IN1
+TwosComplement[11] => TwosComplement[11].IN1
+TwosComplement[12] => TwosComplement[12].IN1
+TwosComplement[13] => TwosComplement[13].IN1
+TwosComplement[14] => TwosComplement[14].IN1
+TwosComplement[15] => TwosComplement[15].IN1
+TwosComplement[16] => TwosComplement[16].IN1
+is[0] => is[0].IN1
+is[1] => is[1].IN1
+is[2] => is[2].IN1
+is[3] => is[3].IN1
+is[4] => is[4].IN1
+is[5] => is[5].IN1
+is[6] => is[6].IN1
+is[7] => is[7].IN1
+is[8] => is[8].IN1
+is[9] => is[9].IN1
+is[10] => is[10].IN1
+is[11] => is[11].IN1
+is[12] => is[12].IN1
+is[13] => is[13].IN1
+is[14] => is[14].IN1
+is[15] => is[15].IN1
+is[16] => is[16].IN1
+Newpscore[0] <= onebitADDER:U0.port3
+Newpscore[1] <= onebitADDER:U1.port3
+Newpscore[2] <= onebitADDER:U2.port3
+Newpscore[3] <= onebitADDER:U3.port3
+Newpscore[4] <= onebitADDER:U4.port3
+Newpscore[5] <= onebitADDER:U5.port3
+Newpscore[6] <= onebitADDER:U6.port3
+Newpscore[7] <= onebitADDER:U7.port3
+Newpscore[8] <= onebitADDER:U8.port3
+Newpscore[9] <= onebitADDER:U9.port3
+Newpscore[10] <= onebitADDER:U10.port3
+Newpscore[11] <= onebitADDER:U11.port3
+Newpscore[12] <= onebitADDER:U12.port3
+Newpscore[13] <= onebitADDER:U13.port3
+Newpscore[14] <= onebitADDER:U14.port3
+Newpscore[15] <= onebitADDER:U15.port3
+Newpscore[16] <= onebitADDER:U16.port3
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U0
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U1
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U2
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U3
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U4
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U5
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U6
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U7
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U8
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U9
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U10
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U11
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U12
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U13
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U14
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U15
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|singlebetSubtractor:M1|seventeenbitadder:U_add|onebitADDER:U16
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0
+is[0] => is[0].IN1
+is[1] => is[1].IN1
+is[2] => is[2].IN1
+is[3] => is[3].IN1
+is[4] => is[4].IN1
+is[5] => is[5].IN1
+is[6] => is[6].IN1
+is[7] => is[7].IN1
+is[8] => is[8].IN1
+is[9] => is[9].IN1
+is[10] => is[10].IN1
+is[11] => is[11].IN1
+is[12] => is[12].IN1
+is[13] => is[13].IN1
+is[14] => is[14].IN1
+is[15] => is[15].IN1
+is[16] => is[16].IN1
+outS[0] <= seventeenbitadder:U_add.port2
+outS[1] <= seventeenbitadder:U_add.port2
+outS[2] <= seventeenbitadder:U_add.port2
+outS[3] <= seventeenbitadder:U_add.port2
+outS[4] <= seventeenbitadder:U_add.port2
+outS[5] <= seventeenbitadder:U_add.port2
+outS[6] <= seventeenbitadder:U_add.port2
+outS[7] <= seventeenbitadder:U_add.port2
+outS[8] <= seventeenbitadder:U_add.port2
+outS[9] <= seventeenbitadder:U_add.port2
+outS[10] <= seventeenbitadder:U_add.port2
+outS[11] <= seventeenbitadder:U_add.port2
+outS[12] <= seventeenbitadder:U_add.port2
+outS[13] <= seventeenbitadder:U_add.port2
+outS[14] <= seventeenbitadder:U_add.port2
+outS[15] <= seventeenbitadder:U_add.port2
+outS[16] <= seventeenbitadder:U_add.port2
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add
+TwosComplement[0] => TwosComplement[0].IN1
+TwosComplement[1] => TwosComplement[1].IN1
+TwosComplement[2] => TwosComplement[2].IN1
+TwosComplement[3] => TwosComplement[3].IN1
+TwosComplement[4] => TwosComplement[4].IN1
+TwosComplement[5] => TwosComplement[5].IN1
+TwosComplement[6] => TwosComplement[6].IN1
+TwosComplement[7] => TwosComplement[7].IN1
+TwosComplement[8] => TwosComplement[8].IN1
+TwosComplement[9] => TwosComplement[9].IN1
+TwosComplement[10] => TwosComplement[10].IN1
+TwosComplement[11] => TwosComplement[11].IN1
+TwosComplement[12] => TwosComplement[12].IN1
+TwosComplement[13] => TwosComplement[13].IN1
+TwosComplement[14] => TwosComplement[14].IN1
+TwosComplement[15] => TwosComplement[15].IN1
+TwosComplement[16] => TwosComplement[16].IN1
+is[0] => is[0].IN1
+is[1] => is[1].IN1
+is[2] => is[2].IN1
+is[3] => is[3].IN1
+is[4] => is[4].IN1
+is[5] => is[5].IN1
+is[6] => is[6].IN1
+is[7] => is[7].IN1
+is[8] => is[8].IN1
+is[9] => is[9].IN1
+is[10] => is[10].IN1
+is[11] => is[11].IN1
+is[12] => is[12].IN1
+is[13] => is[13].IN1
+is[14] => is[14].IN1
+is[15] => is[15].IN1
+is[16] => is[16].IN1
+Newpscore[0] <= onebitADDER:U0.port3
+Newpscore[1] <= onebitADDER:U1.port3
+Newpscore[2] <= onebitADDER:U2.port3
+Newpscore[3] <= onebitADDER:U3.port3
+Newpscore[4] <= onebitADDER:U4.port3
+Newpscore[5] <= onebitADDER:U5.port3
+Newpscore[6] <= onebitADDER:U6.port3
+Newpscore[7] <= onebitADDER:U7.port3
+Newpscore[8] <= onebitADDER:U8.port3
+Newpscore[9] <= onebitADDER:U9.port3
+Newpscore[10] <= onebitADDER:U10.port3
+Newpscore[11] <= onebitADDER:U11.port3
+Newpscore[12] <= onebitADDER:U12.port3
+Newpscore[13] <= onebitADDER:U13.port3
+Newpscore[14] <= onebitADDER:U14.port3
+Newpscore[15] <= onebitADDER:U15.port3
+Newpscore[16] <= onebitADDER:U16.port3
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U0
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U1
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U2
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U3
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U4
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U5
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U6
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U7
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U8
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U9
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U10
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U11
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U12
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U13
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U14
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U15
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|playerCOIN|twotooneMUX:U1|maxbetsubtractor:M0|seventeenbitadder:U_add|onebitADDER:U16
+og => carryout.IN0
+og => carryout.IN0
+og => sum.IN0
+spun => carryout.IN1
+spun => carryout.IN0
+spun => sum.IN1
+carryin => carryout.IN1
+carryin => carryout.IN1
+carryin => sum.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+
+
