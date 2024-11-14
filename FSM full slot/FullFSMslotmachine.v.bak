@@ -1,0 +1,82 @@
+module FullFSM(          );
+
+	//inputs
+	
+	
+	
+	//outputs
+	
+	
+	
+		// one hot code for states
+    
+	 parameter startState = 6'b000001, 
+				  loadState = 6'b000010, 
+				  playState = 6'b000100;
+				  spinState = 6'b001000, 
+				  winState = 6'b010000, 
+				  resetState = 6'b100000;
+
+    reg [3:0] currentS, nextS;      // Current and next state
+    reg [10:0] M;            // Shift register holding Morse code pattern
+	 
+
+    
+    always @(posedge ) 
+	 begin
+		
+		//START STATE
+		//default state is start state
+		//start in defualt state
+		//display the slot machine
+		
+		// if <enter>
+		//move to load state
+		//else stay in curren state
+		
+		//LOAD STATE
+		//load the player score and name
+		// MINI fsm for loading name into ram and lading balance/score of player
+		
+		
+		//if <eneter>
+		//move to play state
+		//else stay in load state
+		
+		//PLAY STATE
+		//dislpay buttons ->graphics change
+		//spin button
+		
+		//if<spin key>
+		// move to spin state
+		// else stay in currentsate
+		//else if <end game button>
+		// move to resetState
+		
+		//SPIN STATE
+		// graphic for each indivusal slot spin based on number of enter key pressed
+		
+		//if <enter *3> 
+		//move to move to win state
+		//elese stay in current state
+		
+		//NOTE CODE IT to only track the keyboard input enter and no other in this state
+		
+		//WIN STATE
+		//calculate new player score
+		//handle jack pot
+		//handle player spin number to check if won
+		
+		//if <button to coninue playing> 
+		//move to play state
+		
+		//RESET STATE
+		//update player score to leaderboard in the ram slots
+		//clear/reset player
+		
+		//if <clear is done> 
+		//move to start state
+		//else continue in smae state
+		
+
+endmodule
