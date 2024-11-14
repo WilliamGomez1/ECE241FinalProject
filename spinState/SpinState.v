@@ -1,7 +1,7 @@
 module spinState (CLOCK_50, KEY, HEX5, HEX4, HEX3);
 
 input CLOCK_50;
-input [1:0] KEY;
+input [3:0] KEY;
 output [6:0] HEX3, HEX4, HEX5;
 
 wire [11:0] PlayerSpin;
@@ -11,8 +11,6 @@ wire state1, state2, state3, displayOff;
 hexadecimalDecoder U0 (PlayerSpin[11:8], HEX5);
 hexadecimalDecoder U1 (PlayerSpin[7:4], HEX4);
 hexadecimalDecoder U2 (PlayerSpin[3:0], HEX3);
-
-
 
 
 //FSM that records each StopKey press, gets number for each press 
@@ -32,6 +30,12 @@ input state1, state2, state3, displayOff;
 output reg [11:0] PlayerSpin;
 
 reg [3:0]Clawk;
+
+initial begin
+		PlayerSpin <= 12'b0;
+		Clawk <= 4'b0;
+	end
+
 wire reset;
 assign reset = (Clawk == 4'b0)?1:0;
 
@@ -142,6 +146,10 @@ output state1, state2, state3, displayOff;
 
 reg [3:0] y_Q, Y_D; // y_Q = current state, Y_D = next state
 
+initial begin
+		y_Q <= 4'b0;
+	end
+
 parameter [3:0]	None = 4'b0001, Once = 4'b0010, Twice = 4'b0100, Done = 4'b1000;
 always@(y_Q)
 	begin
@@ -181,4 +189,3 @@ module hexadecimalDecoder(input [3:0] c, output [6:0] hex);
     assign hex = ~h;
 
 endmodule
-
