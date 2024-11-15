@@ -10,7 +10,7 @@ assign LEDR[4:0] = newScore[4:0];
 
 playerCOIN L1(maxbetselectorBUTTON, ogScore, newScore);
 
-endmodule
+endmodule 
 
 module playerCOIN(maxbetselectorBUTTON, ogScore, newScore);
 
